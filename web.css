@@ -1,3 +1,10 @@
+.navigator {
+  background-color: cornsilk;
+  font-size:large;
+  padding: 0px;
+
+}
+
 a {
   color: darkslategray;
   font-weight: bold;
@@ -13,10 +20,7 @@ body {
   background-color: cadetblue;
 }
 
-.portrait {
+#headshot {
   margin-left: 10%;
 }
 
-.navigator {
-  background-color: cornsilk;
-}
