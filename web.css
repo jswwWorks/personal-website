@@ -12,3 +12,11 @@ h1, h2, p {
 body {
   background-color: cadetblue;
 }
+
+.portrait {
+  margin-left: 10%;
+}
+
+.navigator {
+  background-color: cornsilk;
+}
