@@ -1,26 +1,40 @@
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+* {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navigator {
+  overflow: auto;
+  list-style: none;
+  background: darkslategrey;
+}
+
+.navigator li {
+  float: left;
+}
+
+.navigator li a {
+  display: block; /* makes thick block around navbar */
+  text-decoration: none; /* removes text underlines */
   font-size: 20px;
+  padding: 20px 20px;
+  color: cornsilk;
 }
 
 a {
-  color: darkslategray;
+  color: slategray;
   font-weight: bold;
 }
 
-h1, h2, p {
-  color: cornsilk;
+h3, h2, p {
+  color: rgb(15, 101, 104);
   margin-left: 10%;
   margin-right: 20%;
 }
 
 body {
-  background-color: cadetblue;
+  background-color:	#d7d7ce;
 }
 
-#headshot {
+#headshot, #resume {
   margin-left: 10%;
 }
-
