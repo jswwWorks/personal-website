@@ -1,5 +1,5 @@
 * {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* sets the page font */
 }
 
 .navigator {
@@ -16,7 +16,7 @@
   display: block; /* makes thick block around navbar */
   text-decoration: none; /* removes text underlines */
   font-size: 20px;
-  padding: 20px 20px;
+  padding: 25px 70px;
   color: cornsilk;
 }
 
@@ -25,16 +25,57 @@ a {
   font-weight: bold;
 }
 
-h3, h2, p {
+h2, h3, h4 {
   color: rgb(15, 101, 104);
   margin-left: 10%;
   margin-right: 20%;
 }
 
-body {
-  background-color:	#d7d7ce;
+p {
+  color: rgb(6, 118, 122);
+  margin-left: 10%;
+  margin-right: 20%;
 }
 
-#headshot, #resume {
-  margin-left: 10%;
+body {
+  background-color:	#eaeae9;
 }
+
+
+#resume {
+  margin-left: 10%; /* this properly aligns the resume icon with the text */
+  /* will probably delete this when I put the image next to the text */
+}
+
+#headshot {
+  margin-left: 10%;
+  display: block;
+  border-radius: 15px; /* this rounds the edges of my picture */
+}
+
+hr {
+  border-top: 0.5px solid rgb(15, 101, 104);
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/*
+.landing {
+  display: flex;
+  align-items: center;
+}
+
+.landing > p {
+  display: grid;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+}
+
+Ideas for future updates: put text and picture in boxes next to each other
+*/
+
+/*
+.landing > div { so this applies to the div elements inside of the element with the landing class
+
+*/
