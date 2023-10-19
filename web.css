@@ -25,7 +25,13 @@ a {
   font-weight: bold;
 }
 
-h2, h3, h4 {
+h4 {
+  color: rgb(15, 101, 104);
+  margin-left: 10%;
+  margin-right: 20%;
+}
+
+h2, h3 {
   color: rgb(15, 101, 104);
   margin-left: 10%;
   margin-right: 20%;
